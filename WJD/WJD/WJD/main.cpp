@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Yizhi Zhang. All rights reserved.
 //
 
-#include <iostream>
+#include "stdafx.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...

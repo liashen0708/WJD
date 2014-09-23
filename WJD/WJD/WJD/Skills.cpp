@@ -7,3 +7,4 @@
 //
 
 #include "Skills.h"
+#include "stdafx.h"
