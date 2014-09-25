@@ -12,6 +12,6 @@
 #include <iostream>
 #include "Skills.h"
 #include "human.h"
-
+#include "wizard.h"
 
 // TODO: reference additional headers your program requires here

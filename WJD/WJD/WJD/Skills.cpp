@@ -8,3 +8,20 @@
 
 #include "Skills.h"
 #include "stdafx.h"
+
+Skills::Skills(skillsName inputName, bool isPassive)
+{
+    this->name = inputName;
+    this->isPassive  = isPassive;
+}
+
+skillsName Skills::GetName()
+{
+    return name;
+}
+
+bool Skills::IsPassive()
+{
+    return isPassive;
+}
+

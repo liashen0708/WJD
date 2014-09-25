@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		D0F5EFC219D116B900F973F1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0F5EFC119D116B900F973F1 /* main.cpp */; };
 		D0F5EFCA19D1188000F973F1 /* Skills.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0F5EFC919D1188000F973F1 /* Skills.cpp */; };
+		D0F5EFE319D1E5D400F973F1 /* human.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0F5EFDB19D1E5D400F973F1 /* human.cpp */; };
+		D0F5EFE419D1E5D400F973F1 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0F5EFDE19D1E5D400F973F1 /* stdafx.cpp */; };
+		D0F5EFEA19D392F500F973F1 /* wizard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0F5EFE919D392F500F973F1 /* wizard.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,16 @@
 		D0F5EFC119D116B900F973F1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D0F5EFC819D1186C00F973F1 /* Skills.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Skills.h; sourceTree = "<group>"; };
 		D0F5EFC919D1188000F973F1 /* Skills.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Skills.cpp; sourceTree = "<group>"; };
+		D0F5EFDB19D1E5D400F973F1 /* human.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = human.cpp; sourceTree = "<group>"; };
+		D0F5EFDC19D1E5D400F973F1 /* human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = human.h; sourceTree = "<group>"; };
+		D0F5EFDD19D1E5D400F973F1 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		D0F5EFDE19D1E5D400F973F1 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
+		D0F5EFDF19D1E5D400F973F1 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		D0F5EFE019D1E5D400F973F1 /* targetver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = targetver.h; sourceTree = "<group>"; };
+		D0F5EFE119D1E5D400F973F1 /* WJD.vcxproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = WJD.vcxproj; sourceTree = "<group>"; };
+		D0F5EFE219D1E5D400F973F1 /* WJD.vcxproj.filters */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = WJD.vcxproj.filters; sourceTree = "<group>"; };
+		D0F5EFE819D392E600F973F1 /* wizard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wizard.h; sourceTree = "<group>"; };
+		D0F5EFE919D392F500F973F1 /* wizard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wizard.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +73,18 @@
 		D0F5EFC019D116B900F973F1 /* WJD */ = {
 			isa = PBXGroup;
 			children = (
+				D0F5EFDB19D1E5D400F973F1 /* human.cpp */,
+				D0F5EFDC19D1E5D400F973F1 /* human.h */,
+				D0F5EFDD19D1E5D400F973F1 /* ReadMe.txt */,
+				D0F5EFDE19D1E5D400F973F1 /* stdafx.cpp */,
+				D0F5EFDF19D1E5D400F973F1 /* stdafx.h */,
+				D0F5EFE019D1E5D400F973F1 /* targetver.h */,
+				D0F5EFE119D1E5D400F973F1 /* WJD.vcxproj */,
+				D0F5EFE219D1E5D400F973F1 /* WJD.vcxproj.filters */,
 				D0F5EFC119D116B900F973F1 /* main.cpp */,
 				D0F5EFC819D1186C00F973F1 /* Skills.h */,
+				D0F5EFE819D392E600F973F1 /* wizard.h */,
+				D0F5EFE919D392F500F973F1 /* wizard.cpp */,
 				D0F5EFC919D1188000F973F1 /* Skills.cpp */,
 			);
 			path = WJD;
@@ -124,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0F5EFC219D116B900F973F1 /* main.cpp in Sources */,
+				D0F5EFEA19D392F500F973F1 /* wizard.cpp in Sources */,
+				D0F5EFE419D1E5D400F973F1 /* stdafx.cpp in Sources */,
+				D0F5EFE319D1E5D400F973F1 /* human.cpp in Sources */,
 				D0F5EFCA19D1188000F973F1 /* Skills.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +264,7 @@
 				D0F5EFC719D116B900F973F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
