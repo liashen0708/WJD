@@ -21,3 +21,8 @@ Skills* Wizard::getObject()
     }
     return instance;
 }
+
+void Wizard::fun(HUMAN *a, HUMAN *b)
+{
+    b->SetBIsCursed(true);
+}

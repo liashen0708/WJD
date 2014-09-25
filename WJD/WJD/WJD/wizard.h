@@ -16,7 +16,7 @@ private:
     Wizard();
 public:
     static Skills *getObject();
-    virtual void fun();
+    virtual void fun(HUMAN*, HUMAN*);
 };
 
 #endif

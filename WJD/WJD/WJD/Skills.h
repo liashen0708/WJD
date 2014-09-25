@@ -8,6 +8,8 @@
 
 #ifndef WJD_Skills_h
 #define WJD_Skills_h
+#include "stdafx.h"
+
 enum skillsName{Wizard,Assassin,Munitioner,Doctor,WitchDoctor,Warrior,Gunner,Mercenary,Scholar,Utahime};
 class Skills
 {
@@ -16,7 +18,7 @@ private:
     skillsName name;
 public:
     Skills(skillsName ,bool);
-    virtual void fun() = 0;
+    virtual void fun(HUMAN*,HUMAN*) = 0;
     skillsName GetName();
     bool IsPassive();
 };
