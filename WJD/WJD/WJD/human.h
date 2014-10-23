@@ -1,6 +1,9 @@
 #pragma once
-#include "stdafx.h"
 
+#include "Skills.h"
+
+enum Identity{abc};
+class Skills;
 class HUMAN
 {
 public:
@@ -16,10 +19,10 @@ public:
 	bool GetBIsCursed() { return m_bIsCursed; }
 
 	//setters
-	unsigned int SetUHp(unsigned int uHp) { m_uHp = uHp; }
-	enum Identity SetEIdentity(enum Identity eIdentity) { m_eIdentity = eIdentity; }
-	bool SetBIsInJail(bool bIsInJail) { m_bIsInJail = bIsInJail; }
-	bool SetBIsCursed(bool bIsCursed) { m_bIsCursed = bIsCursed; }
+	void SetUHp(unsigned int uHp) { m_uHp = uHp; }
+	void SetEIdentity(enum Identity eIdentity) { m_eIdentity = eIdentity; }
+	void SetBIsInJail(bool bIsInJail) { m_bIsInJail = bIsInJail; }
+	void SetBIsCursed(bool bIsCursed) { m_bIsCursed = bIsCursed; }
 
 private:
 	unsigned int m_uHp;

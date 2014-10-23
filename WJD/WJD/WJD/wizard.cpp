@@ -8,12 +8,13 @@
 
 #include "wizard.h"
 
+class Wizard* Wizard::instance = NULL;
 Wizard::Wizard()
 :Skills(skillsName::Wizard,false)
 {
 }
 
-Skills* Wizard::getObject()
+class Wizard* Wizard::getObject()
 {
     if(instance == NULL)
     {
@@ -22,7 +23,7 @@ Skills* Wizard::getObject()
     return instance;
 }
 
-void Wizard::fun(HUMAN *a, HUMAN *b)
+void Wizard::fun(HUMAN &a, HUMAN &b)
 {
-    b->SetBIsCursed(true);
+    b.SetBIsCursed(true);
 }

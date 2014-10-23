@@ -7,12 +7,11 @@
 //
 
 #include "Skills.h"
-#include "stdafx.h"
 
-Skills::Skills(skillsName inputName, bool isPassive)
+Skills::Skills(skillsName _Name, bool _isPassive)
 {
-    this->name = inputName;
-    this->isPassive  = isPassive;
+    this->name = _Name;
+    this->isPassive  = _isPassive;
 }
 
 skillsName Skills::GetName()

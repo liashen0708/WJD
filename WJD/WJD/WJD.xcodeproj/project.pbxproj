@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D04238E219F6E1E800FA9CD0 /* assassin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D04238E119F6E1E800FA9CD0 /* assassin.cpp */; };
+		D04238E619F6EFD300FA9CD0 /* munitioner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D04238E419F6EFD300FA9CD0 /* munitioner.cpp */; };
+		D04238E919F6F1AC00FA9CD0 /* doctor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D04238E719F6F1AC00FA9CD0 /* doctor.cpp */; };
+		D04238EC19F71B5200FA9CD0 /* witchDoctor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D04238EA19F71B5200FA9CD0 /* witchDoctor.cpp */; };
+		D04238EF19F724B900FA9CD0 /* utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D04238ED19F724B900FA9CD0 /* utilities.cpp */; };
+		D04238F219F727DE00FA9CD0 /* warrior.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D04238F019F727DE00FA9CD0 /* warrior.cpp */; };
+		D07782D719F9AADE0094D3BE /* gunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D07782D519F9AADE0094D3BE /* gunner.cpp */; };
+		D07782DA19F9ACA90094D3BE /* mercenary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D07782D819F9ACA90094D3BE /* mercenary.cpp */; };
+		D07782DD19F9AE190094D3BE /* scholar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D07782DB19F9AE190094D3BE /* scholar.cpp */; };
 		D0F5EFC219D116B900F973F1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0F5EFC119D116B900F973F1 /* main.cpp */; };
 		D0F5EFCA19D1188000F973F1 /* Skills.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0F5EFC919D1188000F973F1 /* Skills.cpp */; };
 		D0F5EFE319D1E5D400F973F1 /* human.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0F5EFDB19D1E5D400F973F1 /* human.cpp */; };
@@ -27,6 +36,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D04238DD19F6E15600FA9CD0 /* assassin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = assassin.h; sourceTree = "<group>"; };
+		D04238E119F6E1E800FA9CD0 /* assassin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = assassin.cpp; sourceTree = "<group>"; };
+		D04238E419F6EFD300FA9CD0 /* munitioner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = munitioner.cpp; sourceTree = "<group>"; };
+		D04238E519F6EFD300FA9CD0 /* munitioner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = munitioner.h; sourceTree = "<group>"; };
+		D04238E719F6F1AC00FA9CD0 /* doctor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = doctor.cpp; sourceTree = "<group>"; };
+		D04238E819F6F1AC00FA9CD0 /* doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doctor.h; sourceTree = "<group>"; };
+		D04238EA19F71B5200FA9CD0 /* witchDoctor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = witchDoctor.cpp; sourceTree = "<group>"; };
+		D04238EB19F71B5200FA9CD0 /* witchDoctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = witchDoctor.h; sourceTree = "<group>"; };
+		D04238ED19F724B900FA9CD0 /* utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utilities.cpp; sourceTree = "<group>"; };
+		D04238EE19F724B900FA9CD0 /* utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utilities.h; sourceTree = "<group>"; };
+		D04238F019F727DE00FA9CD0 /* warrior.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = warrior.cpp; sourceTree = "<group>"; };
+		D04238F119F727DE00FA9CD0 /* warrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = warrior.h; sourceTree = "<group>"; };
+		D07782D519F9AADE0094D3BE /* gunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gunner.cpp; sourceTree = "<group>"; };
+		D07782D619F9AADE0094D3BE /* gunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gunner.h; sourceTree = "<group>"; };
+		D07782D819F9ACA90094D3BE /* mercenary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mercenary.cpp; sourceTree = "<group>"; };
+		D07782D919F9ACA90094D3BE /* mercenary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mercenary.h; sourceTree = "<group>"; };
+		D07782DB19F9AE190094D3BE /* scholar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scholar.cpp; sourceTree = "<group>"; };
+		D07782DC19F9AE190094D3BE /* scholar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scholar.h; sourceTree = "<group>"; };
 		D0F5EFBE19D116B900F973F1 /* WJD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WJD; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F5EFC119D116B900F973F1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D0F5EFC819D1186C00F973F1 /* Skills.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Skills.h; sourceTree = "<group>"; };
@@ -36,7 +63,6 @@
 		D0F5EFDD19D1E5D400F973F1 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		D0F5EFDE19D1E5D400F973F1 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
 		D0F5EFDF19D1E5D400F973F1 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
-		D0F5EFE019D1E5D400F973F1 /* targetver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = targetver.h; sourceTree = "<group>"; };
 		D0F5EFE119D1E5D400F973F1 /* WJD.vcxproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = WJD.vcxproj; sourceTree = "<group>"; };
 		D0F5EFE219D1E5D400F973F1 /* WJD.vcxproj.filters */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = WJD.vcxproj.filters; sourceTree = "<group>"; };
 		D0F5EFE819D392E600F973F1 /* wizard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wizard.h; sourceTree = "<group>"; };
@@ -77,15 +103,32 @@
 				D0F5EFDC19D1E5D400F973F1 /* human.h */,
 				D0F5EFDD19D1E5D400F973F1 /* ReadMe.txt */,
 				D0F5EFDE19D1E5D400F973F1 /* stdafx.cpp */,
+				D04238F019F727DE00FA9CD0 /* warrior.cpp */,
+				D04238F119F727DE00FA9CD0 /* warrior.h */,
+				D07782D519F9AADE0094D3BE /* gunner.cpp */,
+				D07782D619F9AADE0094D3BE /* gunner.h */,
+				D07782D819F9ACA90094D3BE /* mercenary.cpp */,
+				D07782D919F9ACA90094D3BE /* mercenary.h */,
 				D0F5EFDF19D1E5D400F973F1 /* stdafx.h */,
-				D0F5EFE019D1E5D400F973F1 /* targetver.h */,
 				D0F5EFE119D1E5D400F973F1 /* WJD.vcxproj */,
 				D0F5EFE219D1E5D400F973F1 /* WJD.vcxproj.filters */,
 				D0F5EFC119D116B900F973F1 /* main.cpp */,
 				D0F5EFC819D1186C00F973F1 /* Skills.h */,
 				D0F5EFE819D392E600F973F1 /* wizard.h */,
+				D07782DB19F9AE190094D3BE /* scholar.cpp */,
+				D07782DC19F9AE190094D3BE /* scholar.h */,
+				D04238E419F6EFD300FA9CD0 /* munitioner.cpp */,
+				D04238E719F6F1AC00FA9CD0 /* doctor.cpp */,
+				D04238EA19F71B5200FA9CD0 /* witchDoctor.cpp */,
+				D04238EB19F71B5200FA9CD0 /* witchDoctor.h */,
+				D04238E819F6F1AC00FA9CD0 /* doctor.h */,
+				D04238E519F6EFD300FA9CD0 /* munitioner.h */,
+				D04238DD19F6E15600FA9CD0 /* assassin.h */,
+				D04238E119F6E1E800FA9CD0 /* assassin.cpp */,
 				D0F5EFE919D392F500F973F1 /* wizard.cpp */,
 				D0F5EFC919D1188000F973F1 /* Skills.cpp */,
+				D04238ED19F724B900FA9CD0 /* utilities.cpp */,
+				D04238EE19F724B900FA9CD0 /* utilities.h */,
 			);
 			path = WJD;
 			sourceTree = "<group>";
@@ -146,11 +189,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04238EF19F724B900FA9CD0 /* utilities.cpp in Sources */,
+				D04238E619F6EFD300FA9CD0 /* munitioner.cpp in Sources */,
 				D0F5EFC219D116B900F973F1 /* main.cpp in Sources */,
+				D07782DA19F9ACA90094D3BE /* mercenary.cpp in Sources */,
+				D07782DD19F9AE190094D3BE /* scholar.cpp in Sources */,
 				D0F5EFEA19D392F500F973F1 /* wizard.cpp in Sources */,
+				D04238E219F6E1E800FA9CD0 /* assassin.cpp in Sources */,
 				D0F5EFE419D1E5D400F973F1 /* stdafx.cpp in Sources */,
+				D07782D719F9AADE0094D3BE /* gunner.cpp in Sources */,
+				D04238F219F727DE00FA9CD0 /* warrior.cpp in Sources */,
 				D0F5EFE319D1E5D400F973F1 /* human.cpp in Sources */,
+				D04238E919F6F1AC00FA9CD0 /* doctor.cpp in Sources */,
 				D0F5EFCA19D1188000F973F1 /* Skills.cpp in Sources */,
+				D04238EC19F71B5200FA9CD0 /* witchDoctor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
