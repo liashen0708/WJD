@@ -81,19 +81,39 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="assassin.h" />
+    <ClInclude Include="doctor.h" />
+    <ClInclude Include="gunner.h" />
     <ClInclude Include="human.h" />
+    <ClInclude Include="mercenary.h" />
+    <ClInclude Include="munitioner.h" />
+    <ClInclude Include="scholar.h" />
     <ClInclude Include="Skills.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="utilities.h" />
+    <ClInclude Include="warrior.h" />
+    <ClInclude Include="witchDoctor.h" />
+    <ClInclude Include="wizard.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="assassin.cpp" />
+    <ClCompile Include="doctor.cpp" />
+    <ClCompile Include="gunner.cpp" />
     <ClCompile Include="human.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mercenary.cpp" />
+    <ClCompile Include="munitioner.cpp" />
+    <ClCompile Include="scholar.cpp" />
     <ClCompile Include="Skills.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="utilities.cpp" />
+    <ClCompile Include="warrior.cpp" />
+    <ClCompile Include="witchDoctor.cpp" />
+    <ClCompile Include="wizard.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Yizhi Zhang. All rights reserved.
 //
 
-#include "assassin.h"
+#include "stdafx.h"
 class Assassin* Assassin::instance = NULL;
 Assassin::Assassin()
 :Skills(skillsName::Assassin,true)

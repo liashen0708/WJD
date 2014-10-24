@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Yizhi Zhang. All rights reserved.
 //
 
-#include "mercenary.h"
+#include "stdafx.h"
 class Mercenary* Mercenary::instance = NULL;
 Mercenary::Mercenary()
 :Skills(skillsName::Mercenary,true)

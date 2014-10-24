@@ -6,16 +6,25 @@
 //  Copyright (c) 2014 Yizhi Zhang. All rights reserved.
 //
 
-#include "scholar.h"
+#include "stdafx.h"
 class Scholar* Scholar::instance = NULL;
 Scholar::Scholar()
-:Skills(skillsName::Scholar,true)
+:Skills(skillsName::Scholar,false)
 {
+	this->isLearned = false;
 }
 
 skillsName Scholar::GetName()
 {
-    return skillsName::Assassin;
+	if (this->isLearned)
+		return this->currentSkill->GetName();
+	else
+		return skillsName::Scholar;
+}
+
+bool Scholar::IsPassive()
+{
+	return currentSkill->IsPassive();
 }
 
 class Scholar* Scholar::getObject()
@@ -29,6 +38,11 @@ class Scholar* Scholar::getObject()
 
 void Scholar::fun(HUMAN &a, HUMAN &b)
 {
-    
+	if (this->isLearned)
+		currentSkill->fun(a, b);
+	else
+	{
+		currentSkill = b.GetESkills();
+	}
 }
 

@@ -9,7 +9,7 @@
 #ifndef __WJD__Doctor__
 #define __WJD__Doctor__
 
-#include "Skills.h"
+#include "stdafx.h"
 
 class Doctor : public Skills
 {

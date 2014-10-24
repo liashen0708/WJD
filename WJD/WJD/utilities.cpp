@@ -7,7 +7,7 @@
 //
 
 #include "utilities.h"
-
+#include "stdafx.h"
 int Utilities::identityGroup(HUMAN & h)
 {
     return 0;

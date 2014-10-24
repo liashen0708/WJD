@@ -7,6 +7,7 @@
 //
 
 #include "wizard.h"
+#include "stdafx.h"
 
 class Wizard* Wizard::instance = NULL;
 Wizard::Wizard()

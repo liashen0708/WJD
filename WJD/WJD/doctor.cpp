@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Yizhi Zhang. All rights reserved.
 //
 
-#include "Doctor.h"
+#include "stdafx.h"
 class Doctor* Doctor::instance = NULL;
 Doctor::Doctor()
 :Skills(skillsName::Doctor,false)

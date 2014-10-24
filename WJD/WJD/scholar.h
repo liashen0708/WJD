@@ -9,17 +9,19 @@
 #ifndef __WJD__scholar__
 #define __WJD__scholar__
 
-#include "Skills.h"
+#include "stdafx.h"
 class Scholar : public Skills
 {
 private:
     static Scholar *instance;
     Scholar();
     Skills* currentSkill;
+	bool isLearned;
 public:
     static Scholar *getObject();
     virtual void fun(HUMAN&, HUMAN&);
     virtual skillsName GetName();
+	virtual bool IsPassive();
     void reset();
 };
 

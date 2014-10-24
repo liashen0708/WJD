@@ -17,6 +17,7 @@ public:
 	enum Identity GetEIdentity() { return m_eIdentity; }
 	bool GetBIsInJail() { return m_bIsInJail; }
 	bool GetBIsCursed() { return m_bIsCursed; }
+	Skills* GetESkills() { return m_pcSkill; }
 
 	//setters
 	void SetUHp(unsigned int uHp) { m_uHp = uHp; }

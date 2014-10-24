@@ -9,7 +9,7 @@
 #ifndef __WJD__mercenary__
 #define __WJD__mercenary__
 
-#include "Skills.h"
+#include "stdafx.h"
 
 class Mercenary : public Skills
 {

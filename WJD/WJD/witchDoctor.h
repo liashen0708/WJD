@@ -9,8 +9,7 @@
 #ifndef __WJD__witchWitchDoctor__
 #define __WJD__witchWitchDoctor__
 
-#include "Skills.h"
-#include "utilities.h"
+#include "stdafx.h"
 
 class WitchDoctor : public Skills
 {

@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Yizhi Zhang. All rights reserved.
 //
 
-#include "munitioner.h"
+#include "stdafx.h"
 class Munitioner* Munitioner::instance = NULL;
 Munitioner::Munitioner()
 :Skills(skillsName::Munitioner,false)

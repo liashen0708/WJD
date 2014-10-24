@@ -9,7 +9,7 @@
 #ifndef __WJD__utilities__
 #define __WJD__utilities__
 
-#include "human.h"
+#include "stdafx.h"
 
 class Utilities
 {

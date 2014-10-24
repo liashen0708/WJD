@@ -6,7 +6,8 @@
 //  Copyright (c) 2014 Yizhi Zhang. All rights reserved.
 //
 
-#include "witchDoctor.h"
+#include "stdafx.h"
+
 class WitchDoctor* WitchDoctor::instance = NULL;
 WitchDoctor::WitchDoctor()
 :Skills(skillsName::WitchDoctor,false)

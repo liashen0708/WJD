@@ -23,7 +23,7 @@ public:
     Skills(skillsName ,bool);
     virtual void fun(HUMAN& , HUMAN&) = 0;
     virtual skillsName GetName();
-    bool IsPassive();
+    virtual bool IsPassive();
 };
 
 #endif

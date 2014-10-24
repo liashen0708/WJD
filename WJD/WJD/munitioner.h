@@ -9,7 +9,7 @@
 #ifndef __WJD__Munitioner__
 #define __WJD__Munitioner__
 
-#include "Skills.h"
+#include "stdafx.h"
 
 class Munitioner : public Skills
 {

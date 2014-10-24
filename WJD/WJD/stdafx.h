@@ -15,5 +15,11 @@
 #include "wizard.h"
 #include "assassin.h"
 #include "utilities.h"
-
+#include "witchDoctor.h"
+#include "warrior.h"
+#include "munitioner.h"
+#include "scholar.h"
+#include "mercenary.h"
+#include "gunner.h"
+#include "doctor.h"
 // TODO: reference additional headers your program requires here

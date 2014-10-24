@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Yizhi Zhang. All rights reserved.
 //
 
-#include "gunner.h"
+#include "stdafx.h"
 class Gunner* Gunner::instance = NULL;
 Gunner::Gunner()
 :Skills(skillsName::Gunner,true)

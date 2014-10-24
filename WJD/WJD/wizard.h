@@ -9,7 +9,8 @@
 #ifndef WJD_wizard_h
 #define WJD_wizard_h
 
-#include "Skills.h"
+#include "stdafx.h"
+
 class Wizard : public Skills
 {
 private:

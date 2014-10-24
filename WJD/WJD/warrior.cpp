@@ -6,7 +6,8 @@
 //  Copyright (c) 2014 Yizhi Zhang. All rights reserved.
 //
 
-#include "warrior.h"
+
+#include "stdafx.h"
 class Warrior* Warrior::instance = NULL;
 Warrior::Warrior()
 :Skills(skillsName::Warrior,true)
